@@ -1,7 +1,8 @@
 name: "parse and deploy"
 on:
-  schedule:
-    - cron:  '05 4 * * *'
+  workflow_dispatch:
+  #schedule:
+  #  - cron:  '05 4 * * *'
   push:
 
 jobs:
